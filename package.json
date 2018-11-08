@@ -4,7 +4,7 @@
   "description": "An NPM package wrapper for Chisel3",
   "main": "index.js",
   "scripts": {
-    "postinstall": "git clone git@github.com:freechipsproject/chisel3.git && ln -s ../node_modules/firrtl-package node_modules/firrtl-package"
+    "postinstall": "./install.sh"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jackkoenig/chisel3-package#readme",
   "dependencies": {
-    "firrtl-package": "github:jackkoenig/firrtl-package"
+    "firrtl-package": "github:jackkoenig/firrtl-package",
+    "get-installed-path": "^4.0.8"
   }
 }
