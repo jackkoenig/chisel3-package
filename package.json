@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/jackkoenig/chisel3-package#readme",
   "dependencies": {
-    "firrtl-package": "github:jackkoenig/firrtl-package",
+    "firrtl-package": "github:jackkoenig/firrtl-package#dev",
     "get-installed-path": "^4.0.8"
   }
 }
