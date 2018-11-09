@@ -12,5 +12,8 @@ ls ../..
 P=`./find.js firrtl-package`
 echo $P
 # Create symbolic link to firrtl
-ln -fs $P
+#ln -fs $P
+
+P2=`npm explore firrtl-package -- pwd`
+ln -fs $P2
 
