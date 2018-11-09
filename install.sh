@@ -2,7 +2,7 @@
 set -x
 
 if [ ! -d chisel3 ]; then
-  git clone git@github.com:freechipsproject/chisel3.git
+  git clone --depth 1 git@github.com:freechipsproject/chisel3.git
 fi
 
 # Create symbolic link to firrtl
