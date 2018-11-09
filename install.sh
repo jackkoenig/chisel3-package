@@ -9,6 +9,8 @@ echo `pwd`
 ls
 ls ..
 ls ../..
+P=`./find.js firrtl-package`
+echo $P
 # Create symbolic link to firrtl
-ln -fs `./find.js firrtl-package`
+ln -fs $P
 
